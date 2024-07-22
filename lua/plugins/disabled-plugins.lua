@@ -1,0 +1,15 @@
+return {
+  { "nvimdev/dashboard-nvim", enabled = false },
+  { "folke/ts-comments.nvim", enabled = false },
+  { "folke/persistence.nvim", enabled = false },
+  { "folke/todo-comments.nvim", enabled = false },
+  { "folke/trouble.nvim", enabled = false },
+  { "folke/tokyonight.nvim", enabled = false },
+  { "Bilal2453/luvit-meta", enabled = false },
+  { "windwp/nvim-ts-autotag", enabled = false },
+  { "tpope/vim-dadbod", enabled = false },
+  { "kristijanhusak/vim-dadbod-ui", enabled = false },
+  { "kristijanhusak/vim-dadbod-completion", enabled = false },
+  { "linux-cultist/venv-selector.nvim", enabled = false },
+  { "b0o/SchemaStore.nvim", enabled = false },
+}
