@@ -10,6 +10,11 @@ return {
       end,
       desc = "Explorer NeoTree",
     },
+    { "<leader>fe", false },
+    { "<leader>fE", false },
+    { "<leader>E", false },
+    { "<leader>ge", false },
+    { "<leader>be", false, desc = "Buffer Explorer" },
   },
   deactivate = function()
     vim.cmd([[Neotree close]])

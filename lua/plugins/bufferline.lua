@@ -1,6 +1,19 @@
 return {
   "akinsho/bufferline.nvim",
   event = "VeryLazy",
+  keys = {
+    { "<leader>bp", false },
+    { "<leader>bP", false },
+    { "<leader>bo", false },
+    { "<leader>br", false },
+    { "<leader>bl", false },
+    { "<S-h>", "<cmd>BufferLineCyclePrev<cr>", desc = "Prev Buffer" },
+    { "<S-l>", "<cmd>BufferLineCycleNext<cr>", desc = "Next Buffer" },
+    { "[b", false },
+    { "]b", false },
+    { "[B", false },
+    { "]B", false },
+  },
   opts = {
     options = {
       -- stylua: ignore
